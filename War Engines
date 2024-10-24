@@ -28,9 +28,7 @@ local Window = Rayfield:CreateWindow({
 
 local Tab = Window:CreateTab("Main", nil) -- Title, Image
 
-local Label = Tab:CreateLabel("THIS WAS MADE AND TESTED WITH WAVE")
-
-local Label = Tab:CreateLabel("REJOIN AFTER USE")
+local Label = Tab:CreateLabel("Made by .asterik")
 
 local Button = Tab:CreateButton({
    Name = "AutoCoins",
